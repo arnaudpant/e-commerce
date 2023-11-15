@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import { BsFillCloudSunFill } from "react-icons/bs";
 import { FiSun } from "react-icons/fi";
 
-//TODO: headlessui.com
 const Navbar = () => {
 
     const { mode, toggleMode } = useContext(MyContext);
